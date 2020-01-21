@@ -1,0 +1,196 @@
+[class*="col-"] {
+    width: 100%;
+    margin: 0;
+}
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-5s{width: 47%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-8s {width: 72%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+
+body{
+   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-weight: 300;
+
+}
+
+header {
+    display: block;
+    overflow: hidden;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+    background-color: #FBC5D8;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-weight: 300;
+    font-size: 30px;
+}
+
+
+header h1 {
+    position: relative;
+    text-align: center;
+    z-index: 999;
+    margin-bottom: 10px;
+}
+
+header a{
+    position: relative;
+    text-align: right;
+    z-index: 999;
+    margin-bottom: 5px;
+    text-decoration: none;
+    color:#F1396D;
+    -webkit-transition: .5s all;   
+    -webkit-transition-delay: .2s; 
+    -moz-transition: .5s all;   
+    -moz-transition-delay: .2s; 
+    -ms-transition: .5s all;   
+    -ms-transition-delay: .2s; 
+    -o-transition: .5s all;   
+    -o-transition-delay: .2s; 
+    transition: .5s all;   
+    transition-delay: .2s; 
+}
+
+header a:hover{
+    color:white;
+    text-decoration: none;
+    cursor: auto;
+    -webkit-transition-delay: 0s;
+    -moz-transition-delay: 0s;
+    -ms-transition-delay: 0s;
+    -o-transition-delay: 0s;
+    transition-delay: 0s;
+}
+
+header h1 a img{
+    width:10%;
+    height: 20%;
+}
+
+.navbar{
+    text-align: center;
+}
+
+.contentSquare{
+    margin-left: 20px;
+    margin-right: 20px;
+     -webkit-transition: .5s all;   
+    -webkit-transition-delay: .2s; 
+    -moz-transition: .5s all;   
+    -moz-transition-delay: .2s; 
+    -ms-transition: .5s all;   
+    -ms-transition-delay: .2s; 
+    -o-transition: .5s all;   
+    -o-transition-delay: .2s; 
+    transition: .5s all;   
+    transition-delay: .2s; 
+}
+
+.contentSquare a{
+    display: block;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 40px;
+
+
+}
+
+.contentSquare:hover {
+    background-color: #fff !important;
+    color: #5a4275;
+}
+
+.contentSquare a:hover
+{
+    text-decoration: none;
+    color:#F1396D;
+}
+
+.contentSquare1 img
+{
+    padding: 0 0 0 0;
+    display: flex;
+    margin-top: 40px;
+}
+
+.contentSquare1{
+     -webkit-transition: .5s all;   
+    -webkit-transition-delay: .2s; 
+    -moz-transition: .5s all;   
+    -moz-transition-delay: .2s; 
+    -ms-transition: .5s all;   
+    -ms-transition-delay: .2s; 
+    -o-transition: .5s all;   
+    -o-transition-delay: .2s; 
+    transition: .5s all;   
+    transition-delay: .2s; 
+}
+
+
+.contentSquare1 a{
+    display: block;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 40px;
+
+
+}
+
+.contentSquare1:hover {
+    background-color: #fff !important;
+    color: #5a4275;
+}
+
+.contentSquare1 a:hover
+{
+    text-decoration: none;
+    color:#F1396D;
+}
+
+.footer {
+   width: auto;
+   margin-top: 30px;
+}
+
+.list{
+    color: #F1396D;
+}
+
+.list a{
+    color: #F1396D;
+}
+
+.list a:hover{
+    text-decoration: none;
+}
+.servis h3{
+color: #F1396D;
+}
+.servis p{
+color: #382F32;
+}
+.servis span{
+color: #F1396D;
+padding-left: 0px;
+font-size: 20px;
+}
